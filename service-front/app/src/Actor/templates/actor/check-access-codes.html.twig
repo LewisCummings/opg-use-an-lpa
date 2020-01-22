@@ -82,7 +82,8 @@
                             <h2 class="govuk-heading-m">Inactive codes</h2>
 
                             <p class="govuk-body">The following codes will no longer work.<br>
-                                <a href="{{ path('lpa.create-code', {}, {'lpa':  actorToken }) }}">Make a new code</a> if an organisation below still needs access to this LPA.</p>
+                                If an organisation asks to see this LPA again, you can <a href="{{ path('lpa.create-code', {}, {'lpa':  actorToken }) }}">make them a new code</a>.
+                            </p>
 
                             <div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
 
